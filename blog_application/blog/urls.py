@@ -1,1 +1,1 @@
-from django.urls import pathapp_name = 'blog'urlpatterns = []
+from django.urls import pathfrom .views import helloworldapp_name = 'blog'urlpatterns = [    path('', helloworld)]
